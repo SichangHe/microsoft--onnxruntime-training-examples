@@ -97,7 +97,6 @@ struct TrainView: View {
                     .font(.body)
                     .padding()
                     .multilineTextAlignment(.center)
-                    .fontDesign(.monospaced)
                 
                 Spacer()
                 
@@ -142,7 +141,6 @@ struct TrainView: View {
                     .font(.title)
                     .padding()
                     .multilineTextAlignment(.center)
-                    .fontDesign(.monospaced)
                 
                 Spacer()
                 NavigationLink(destination: InferView()) {
