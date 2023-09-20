@@ -1,12 +1,12 @@
 PODS:
-  - "onnxruntime-training-c (1.16.0-dev+20230721002.fa4712c)"
-  - "onnxruntime-training-objc (1.16.0-dev+20230721002.fa4712c)":
-    - "onnxruntime-training-objc/Core (= 1.16.0-dev+20230721002.fa4712c)"
-  - "onnxruntime-training-objc/Core (1.16.0-dev+20230721002.fa4712c)":
-    - "onnxruntime-training-c (= 1.16.0-dev+20230721002.fa4712c)"
+  - onnxruntime-training-c (1.16.0)
+  - onnxruntime-training-objc (1.16.0):
+    - onnxruntime-training-objc/Core (= 1.16.0)
+  - onnxruntime-training-objc/Core (1.16.0):
+    - onnxruntime-training-c (= 1.16.0)
 
 DEPENDENCIES:
-  - "onnxruntime-training-objc (= 1.16.0-dev+20230721002.fa4712c)"
+  - onnxruntime-training-objc (~> 1.16.0)
 
 SPEC REPOS:
   trunk:
@@ -14,9 +14,9 @@ SPEC REPOS:
     - onnxruntime-training-objc
 
 SPEC CHECKSUMS:
-  onnxruntime-training-c: 9480b258e40c1a735e6dac630f33cf3f8614e8ce
-  onnxruntime-training-objc: 92d7e7b69c8422e3452af5971bf1940df7490667
+  onnxruntime-training-c: 71b2f44d53d6222563e8ce5e0c20402b320b415f
+  onnxruntime-training-objc: 9dde11df7b0a6aaac666faa8a4a2f20dc8838a2f
 
-PODFILE CHECKSUM: 69798fc7ac5388ad5365e68d9fa7ebae227a90f0
+PODFILE CHECKSUM: 7e1e7737bb6bc6072565f77161e1d46e833794f3
 
 COCOAPODS: 1.12.1
